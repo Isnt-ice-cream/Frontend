@@ -54,19 +54,19 @@ nav button {
 .section-1{
     flex: 1;
 }
-.section-1__logo{
+.section-1 .section-1__logo{
     display: block;
     margin: 0px auto;
     margin-top: 107px;
 }
-.section-1__s-box{
+.section-1 .section-1__s-box{
     width: 580px;
     margin: 0px auto;
     position: relative;
     margin-top: -8px;
     text-align: center;
 }
-.s-box__s-input {
+.section-1__s-box .s-box__s-input {
 display: block;
 border: 1px solid #ddd;
 color: rgba(0,0,0, 0.87);
@@ -78,7 +78,7 @@ width: 100%;
 transition: box-shadow 100ms;
 outline: none;
 }
-.s-box__s-input:hover{
+.section-1__s-box .s-box__s-input:hover{
     border: 1px solid #fff;
     box-shadow: 0 0 2px rgba(0,0,0, 0.05),
                 0 0 2px rgba(0,0,0, 0.05),
@@ -88,19 +88,19 @@ outline: none;
                 0 0 4px rgba(0,0,0, 0.05),
                 0 0 5px rgba(0,0,0, 0.05);
 }
-.s-box__search-icon{
+.section-1__s-box .s-box__search-icon{
     width: 20px;
     opacity: .4;
     position: absolute;
     top: 13px;
     left: 14px;
 }
-.s-box__keyboard-icon{
+.section-1__s-box .s-box__keyboard-icon{
     position: absolute;
     top: 13px;
     right: 24px;
 }
-.s-box__s-btn{
+.section-1__s-box .s-box__s-btn{
     border: 1px solid transparent;
     padding: 9px 15px;
     color: #666;
@@ -113,7 +113,7 @@ outline: none;
     cursor: pointer;
     transition: border-color 100ms;
 }
-.s-box__s-btn:hover{
+.section-1__s-box .s-box__s-btn:hover{
     border: 1px solid #aaa;
 }
 .lang{
@@ -149,14 +149,14 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
-.footer__links{
+.footer .footer__links{
     border-top: 1px solid #ddd;
     display: flex;
 }
-.footer__link-1{
+.footer__links .footer__link-1{
     padding-left: 18.7px;
     flex: 1;
 }
-.footer__link-2{
+.footer__links .footer__link-2{
     padding-right: 18.7px;
 }
